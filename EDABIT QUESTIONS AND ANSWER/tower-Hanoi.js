@@ -11,9 +11,11 @@
 
 
 //SOLUTION
-//he solution to the Tower of Hanoi puzzle for a given number of discs can be calculated using the formula:[  2^n - 1   ] n= No of Discs
+//The solution to the Tower of Hanoi puzzle for a given number of discs can be calculated using the formula:[  2^n - 1   ] n= No of Discs
 
 
+
+// 2^n - 1 
 function towerHanoi(discs){
     return Math.pow(2,discs)-1
 }
